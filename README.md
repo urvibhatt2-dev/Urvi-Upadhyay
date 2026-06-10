@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. Urvi Upadhyay – Portfolio</title>
+<title> Urvi Upadhyay – Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -137,18 +137,6 @@
   .tag-list { display: flex; flex-wrap: wrap; gap: .4rem; }
   .tag { background: var(--blue-light); color: var(--blue); font-size: .73rem; padding: .22rem .6rem; border-radius: 20px; font-weight: 600; border: 1px solid var(--blue-mid); }
   .tag.orange { background: var(--orange-light); color: var(--primary); border-color: var(--orange-border); }
-
-  .doc-upload-list { display: flex; flex-direction: column; gap: .5rem; }
-  .doc-upload-item {
-    display: flex; align-items: center; justify-content: space-between;
-    font-size: .8rem;
-    background: var(--orange-light); border: 1px solid var(--orange-border); border-radius: 8px; padding: .45rem .65rem;
-  }
-  .doc-upload-item label { display: flex; align-items: center; gap: .45rem; cursor: pointer; color: var(--primary-dark); font-weight: 500; flex: 1; }
-  .doc-upload-item label svg { width:14px; height:14px; flex-shrink:0; }
-  .doc-status { font-size: .7rem; color: #3a9e5f; font-weight: 600; white-space:nowrap; }
-  .doc-status.pending { color: var(--muted); font-weight: 400; }
-
   .content-area { display: flex; flex-direction: column; gap: 1.5rem; }
   .section-card {
     background: var(--card-bg);
