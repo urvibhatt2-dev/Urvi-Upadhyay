@@ -236,23 +236,6 @@
     <a href="#courses">Courses</a>
   </div>
 </nav>
-
-<div id="upload-banner">
-  <div>
-    <strong>📄 Update your profile — upload a new CV/PDF</strong>
-    <p>Data from your uploaded resume is already pre-filled below. Re-upload anytime to refresh.</p>
-  </div>
-  <div class="upload-area">
-    <button class="upload-btn" onclick="document.getElementById('pdf-input').click()">
-      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1M8 12l4 4m0 0l4-4m-4 4V4"/></svg>
-      Upload New CV
-    </button>
-    <input type="file" id="pdf-input" accept=".pdf" onchange="handlePDFUpload(this)">
-    <input type="file" id="photo-input" accept="image/*" onchange="handlePhotoUpload(this)" style="display:none">
-    <span id="upload-status">Resume_Assistant_Professor_UU.pdf loaded ✓</span>
-  </div>
-</div>
-
 <section id="hero">
   <div class="hero-content">
     <div>
