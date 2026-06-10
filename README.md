@@ -44,27 +44,6 @@
   .nav-links a { font-size: .85rem; color: var(--muted); text-decoration: none; font-weight: 500; transition: color .2s; }
   .nav-links a:hover { color: var(--primary); }
 
-  #upload-banner {
-    background: linear-gradient(90deg, var(--orange-light) 0%, var(--blue-light) 100%);
-    border-bottom: 1px solid var(--orange-border);
-    padding: 1rem 2.5rem;
-    display: flex; align-items: center; justify-content: space-between;
-    flex-wrap: wrap; gap: 1rem;
-  }
-  #upload-banner p { font-size: .85rem; color: var(--muted); }
-  #upload-banner strong { display: block; font-size: .95rem; color: var(--primary-dark); margin-bottom: .15rem; }
-  .upload-area { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
-  .upload-btn {
-    display: inline-flex; align-items: center; gap: .45rem;
-    background: var(--accent); color: #fff;
-    border: none; border-radius: 8px; padding: .5rem 1.1rem;
-    font-size: .85rem; font-weight: 500; cursor: pointer; transition: opacity .2s; font-family: inherit;
-  }
-  .upload-btn:hover { opacity: .88; }
-  .upload-btn svg { width:16px; height:16px; }
-  #pdf-input, #photo-input { display: none; }
-  #upload-status { font-size: .78rem; color: var(--muted); }
-
   #hero {
     position: relative;
     background: linear-gradient(120deg, #fff8f2 0%, #ffeedd 45%, #e8f4fd 100%);
